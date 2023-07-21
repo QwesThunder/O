@@ -1,4 +1,4 @@
-const axios = require('cloudscraper');
+const axios = require('axios');
 
 async function getDetail(q) {
   return new Promise((resolve, reject) => {
